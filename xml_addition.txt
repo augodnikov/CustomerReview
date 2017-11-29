@@ -1,0 +1,5 @@
+	<bean id="auCustomerReviewService" class="de.hybris.platform.customerreview.impl.AUCustomerReviewService" parent="abstractBusinessService" scope="tenant">
+		<property name="customerReviewDao" ref="customerReviewDao"/>
+		<property name="fileName" value="cursedWordsFile.txt"/>
+	</bean>
+
